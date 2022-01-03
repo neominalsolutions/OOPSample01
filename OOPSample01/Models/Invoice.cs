@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOPSample01.Models
 {
+    /// <summary>
+    /// Fatura bilgilerini tutarız
+    /// </summary>
     public class Invoice
     {
 

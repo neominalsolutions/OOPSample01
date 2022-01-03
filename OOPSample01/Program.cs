@@ -11,14 +11,14 @@ namespace OOPSample01
             // Not: Company Adress Service ve TaxNumberLookUpService farklı şekillerde sorgulama yapabilme kabiliyetine sahip olsunlar diye company constructor içerisinde interfaceler üzerinden bağlantı kuruldıu bu sayede company constructor içerisine gönderilen classlara ile adapte bir şekilde çalışması sağlandı. Polymophism interface vasıtası ile uygulanadı. 
 
             // contructor with interfaces
-            //var company = new Company(
-            //    name: "NBUY LTD ŞTİ",
-            //    address: "Cihannüma, Hasfırın Cd. No:26, 34353 Beşiktaş/İstanbul",
-            //    taxNumber: "32324324",
-            //    companyAddressService: new EDevletCompanyAddressService(),
-            //    taxNumberLookupService: new NBuyTaxNumberLookUpService()
-            //    );
-            
+            var company = new Company(
+                name: "NBUY LTD ŞTİ",
+                address: "Cihannüma, Hasfırın Cd. No:26, 34353 Beşiktaş/İstanbul",
+                taxNumber: "32324324",
+                companyAddressService: new EDevletCompanyAddressService(),
+                taxNumberLookupService: new NBuyTaxNumberLookUpService()
+                );
+
             //company.SetPhoneNumber("0(212) 346 1010");
 
 
